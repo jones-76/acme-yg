@@ -300,10 +300,6 @@ ACMEDNS(){
 readp "请输入解析完成的域名:" ym
 green "已输入的域名:$ym" && sleep 1
 checkacmeca
-freenom=`echo $ym | awk -F '.' '{print $NF}'`
-if [[ $freenom =~ tk|ga|gq|ml|cf ]]; then
-red "经检测，你正在使用freenom免费域名解析，不支持当前DNS API模式，脚本退出" && exit 
-fi
 if [[ -n $(echo $ym | grep \*) ]]; then
 green "经检测，当前为泛域名证书申请，" && sleep 2
 else
