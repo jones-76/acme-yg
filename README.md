@@ -26,6 +26,8 @@ bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/acme-yg/main/acme.s
 
 8：已集成以下代理脚本中（可共享一个证书）：
 
+[argosbx脚本](https://github.com/yonggekkk/argosbx)
+
 [sing-box-yg脚本](https://github.com/yonggekkk/sing-box-yg)
 
 [x-ui-yg脚本](https://github.com/yonggekkk/x-ui-yg)
