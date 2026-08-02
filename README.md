@@ -9,6 +9,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/acme-yg/main/acme.sh
 bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/acme-yg/main/acme.sh)
 ```
 ---------------------------------------
+
+脚本的视频教程：https://youtu.be/dp0jUG17sZU
+
+---------------------------------------
+
 #### 功能与特点：
 1：支持纯IPV4、纯IPV6、双栈VPS
 
